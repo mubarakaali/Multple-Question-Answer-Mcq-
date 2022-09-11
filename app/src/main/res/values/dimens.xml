@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="normal_font_weight">400</dimen>
+    <dimen name="bold_font_weight">700</dimen>
+    <dimen name="light_bold_font_weight">600</dimen>
+
+    <dimen name="title_text_size">18sp</dimen>
+    <dimen name="title_logo_spacing">2dp</dimen>
+
+    <dimen name="default_elevation">8dp</dimen>
+
+    <dimen name="compare_icon_size">16dp</dimen>
+    <dimen name="compare_icon_margin">10dp</dimen>
+
+    <dimen name="item_ic_size">24dp</dimen>
+    <dimen name="item_ic_small_size">10sp</dimen>
+    <dimen name="item_text_size">12sp</dimen>
+    <dimen name="item_inward_margin">6dp</dimen>
+    <dimen name="item_padding">15dp</dimen>
+    <dimen name="item_spacing">16dp</dimen>
+    <dimen name="item_sticker_spacing">8dp</dimen>
+
+    <dimen name="feature_list_corner_radius">8dp</dimen>
+
+    <dimen name="btn_capsule_height">32dp</dimen>
+    <dimen name="btn_history_margin">12dp</dimen>
+    <dimen name="editor_toolbar_bg_capsule_start_margin">16dp</dimen>
+    <dimen name="editor_toolbar_bg_capsule_end_margin">8dp</dimen>
+    <dimen name="editor_toolbar_bg_capsule_mid_end_margin">50dp</dimen>
+    <dimen name="editor_toolbar_bg_capsule_max_end_margin">104dp</dimen>
+    <dimen name="editor_toolbar_bottom_padding">12dp</dimen>
+    <dimen name="toolbar_btn_size">18dp</dimen>
+    <dimen name="compare_btn_width">48dp</dimen>
+    <dimen name="toolbar_btn_bg_size">18dp</dimen>
+    <dimen name="bg_style_item_corner">6dp</dimen>
+    <dimen name="sb_vertical_padding">8dp</dimen>
+
+    <dimen name="sb_thumb_size">20dp</dimen>
+    <dimen name="sb_thumb_offset">5dp</dimen>
+    <dimen name="sb_track_height">5dp</dimen>
+    <dimen name="sb_track_bg_height">3dp</dimen>
+    <dimen name="btn_history_vertical_margin">7dp</dimen>
+
+    <dimen name="item_crown_margin">4dp</dimen>
+    <dimen name="item_none_box_width">40dp</dimen>
+    <dimen name="item_none_box_height">40dp</dimen>
+    <dimen name="item_none_box_radius">6dp</dimen>
+    <dimen name="item_none_width">58dp</dimen>
+    <dimen name="item_none_height">68dp</dimen>
+    <dimen name="item_none_radius">12dp</dimen>
+    <dimen name="item_none_stroke_width">2dp</dimen>
+    <dimen name="item_stroke_width_small">1dp</dimen>
+    <dimen name="item_start_width">82dp</dimen>
+    <dimen name="item_start_height">68dp</dimen>
+    <dimen name="item_middle_end_height">68dp</dimen>
+    <dimen name="item_middle_end_width">60dp</dimen>
+    <dimen name="item_start_radius">10dp</dimen>
+    <dimen name="item_top_margin">14dp</dimen>
+    <dimen name="item_bottom_margin">10dp</dimen>
+    <dimen name="item_horizontal_margin">10dp</dimen>
+    <dimen name="item_options_spacing">16dp</dimen>
+    <dimen name="item_photo_label_icon_height">24dp</dimen>
+    <dimen name="item_photo_label_horizontal_padding">14dp</dimen>
+    <dimen name="item_asset_horizontal_padding">5dp</dimen>
+    <dimen name="item_asset_vertical_padding">10dp</dimen>
+    <dimen name="item_box_radius">6dp</dimen>
+    <dimen name="item_box_inner_radius">4dp</dimen>
+    <dimen name="item_box_size">40dp</dimen>
+    <dimen name="item_icon_box_size">18dp</dimen>
+    <dimen name="item_box_stroke_width">2dp</dimen>
+    <dimen name="bg_item_padding">3dp</dimen>
+    <dimen name="bg_item_section_padding">12dp</dimen>
+    <dimen name="bg_close_ic_end_margin">3dp</dimen>
+    <dimen name="fit_box_item_padding">6dp</dimen>
+    <dimen name="fit_box_item_vertical_padding">12dp</dimen>
+    <dimen name="color_box_item_margin_top">8dp</dimen>
+    <dimen name="color_box_item_margin_bottom">12dp</dimen>
+    <dimen name="color_box_item_margin_horizontal">6dp</dimen>
+    <dimen name="color_box_item_margin_right">16dp</dimen>
+
+    <dimen name="oval_option_list_height">66dp</dimen>
+    <dimen name="option_list_height">78dp</dimen>
+    <dimen name="option_list_bottom_gradiant_padding">74dp</dimen>
+    <dimen name="option_list_bottom_gradiant_height">4dp</dimen>
+    <dimen name="labeled_list_height">92dp</dimen>
+    <dimen name="default_feature_list_height">1dp</dimen>
+    <dimen name="box_list_height">62dp</dimen>
+
+    <dimen name="bottom_bar_height">48dp</dimen>
+    <dimen name="bottom_bar_ic_side_margin">20dp</dimen>
+    <dimen name="bottom_bar_ic_vertical_margin">9dp</dimen>
+
+    <dimen name="pb_loading_ring_size">125dp</dimen>
+    <dimen name="pb_loading_bg_size">100dp</dimen>
+    <dimen name="dialog_close_vertical_margin">16dp</dimen>
+    <dimen name="btn_rating_height">52dp</dimen>
+
+    <dimen name="dialog_radius">12dp</dimen>
+    <dimen name="dialog_flat_btn_height">53dp</dimen>
+    <dimen name="dialog_padding">16dp</dimen>
+
+    <dimen name="download_dialog_width">250dp</dimen>
+    <dimen name="download_dialog_title_size">18sp</dimen>
+    <dimen name="download_dialog_subtitle_size">14sp</dimen>
+    <dimen name="download_dialog_subtitle_vertical_margin">8dp</dimen>
+    <dimen name="download_dialog_progress_width">172dp</dimen>
+    <dimen name="download_dialog_progress_height">8dp</dimen>
+    <dimen name="download_dialog_progress_corners">8dp</dimen>
+    <dimen name="download_dialog_progress_label_width">25dp</dimen>
+    <dimen name="download_dialog_progress_label_size">10sp</dimen>
+    <dimen name="download_dialog_progress_label_margin">5dp</dimen>
+    <dimen name="download_dialog_label_size">10sp</dimen>
+    <dimen name="download_dialog_label_bottom_margin">8dp</dimen>
+    <dimen name="download_dialog_label_top_margin">32dp</dimen>
+    <dimen name="discard_dialog_ic_top_margin">50dp</dimen>
+    <dimen name="discard_dialog_ic_bottom_margin">18dp</dimen>
+    <dimen name="discard_dialog_title_horizontal_margin">58dp</dimen>
+    <dimen name="discard_dialog_subtitle_top_margin">14dp</dimen>
+    <dimen name="discard_dialog_subtitle_bottom_margin">40dp</dimen>
+    <dimen name="discard_dialog_btn_text_size">14sp</dimen>
+    <dimen name="discard_dialog_subtitle_text_size">14sp</dimen>
+    <dimen name="discard_dialog_title_text_size">18sp</dimen>
+    <dimen name="item_loading_pb_size">30dp</dimen>
+</resources>

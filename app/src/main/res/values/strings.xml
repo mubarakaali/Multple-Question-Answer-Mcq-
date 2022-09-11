@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">KapsuleMcqs</string>
+    <string name="banner_id" translatable="false">ca-app-pub-5428644680857230/4747445551</string>
+    <string name="connection_error">Connection Error</string>
+    <string name="internet_connection_msg">Please check your internet\nconnection.</string>
+    <string name="retry_connection">Retry Connection</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="error_oops">Oops!</string>
+    <string name="title_domain">domain</string>
+    <string name="no_data_found">No Data Found</string>
+</resources>

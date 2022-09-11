@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_100">#8AEEFC</color>
+    <color name="green">#FF018786</color>
+    <color name="teal_800">#064E57</color>
+    <color name="black">#FF000000</color>
+    <color name="red">#8B1E1E</color>
+
+    <color name="white_opacity50">#80FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_opacity80">#CDFFFFFF</color>
+    <color name="whiteOpacity50">#80FFFFFF</color>
+
+    <color name="primary_text_color">#F0F0F0</color>
+    <color name="whiteGrey">#F0F0F0</color>
+    <color name="textDarkGrey">#737373</color>
+    <color name="iconGrey">#C4C4C4</color>
+    <color name="grey_level_1">#646464</color>
+    <color name="lightDarkGrey">#828282</color>
+    <color name="grey_level_2">#4E4E4E</color>
+    <color name="grey_free_plan">#414040</color>
+    <color name="grey_level_3">#393939</color>
+    <color name="bg_color_lighter_grey">#383838</color>
+    <color name="divider">#e4e4e4</color>
+    <color name="save_loader">#00C6A0</color>
+    <color name="tundora">#484848</color>
+    <color name="mineShaft">#282828</color>
+    <color name="doveGrey">#737373</color>
+    <color name="grey_level_4">#282828</color>
+    <color name="background_grey">#1E1E1E</color>
+    <color name="darkGrey_opacity80">#cd1e1e1e</color>
+
+    <color name="darkGrey">#1e1e1e</color>
+
+    <color name="alto">#DDDDDD</color>
+
+    <color name="neonCarrot">#FFA536</color>
+    <color name="sunGlow">#FFC02E</color>
+
+    <color name="bitterSweet">#FF7575</color>
+
+    <color name="lightBlue">#DCF1EF</color>
+    <color name="darkBlue">#5FA0FA</color>
+    <color name="darkerBlue">#396DB5</color>
+
+    <color name="purple_400">#8151BE</color>
+
+    <color name="black_opacity50">#80000000</color>
+
+    <color name="accent_primary_color">#24C6DC</color>
+    <color name="primary_color">#619EFB</color>
+    <color name="yellow">#FFC009</color>
+
+
+</resources>

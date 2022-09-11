@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "468926543196",
+    "project_id": "mcqs-9e68f",
+    "storage_bucket": "mcqs-9e68f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468926543196:android:a2e27aeef71d128de8fd99",
+        "android_client_info": {
+          "package_name": "com.fivesol.kapsulemcqs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468926543196-hg374ndji4d29fg9t6l1n83q0slkl5vi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTGhuhwxVAmesUvt-moJARvzKMfsh14sU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468926543196-hg374ndji4d29fg9t6l1n83q0slkl5vi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
