@@ -16,25 +16,18 @@ import com.fivesol.kapsulemcqs.presentation.dialogue.NetworkErrorDialogue
 import com.fivesol.kapsulemcqs.presentation.old.MainCategoryListener
 import com.fivesol.kapsulemcqs.presentation.old.PostAdapter
 import com.fivesol.kapsulemcqs.presentation.old.SubCategoryActivity
-import com.googleads.AdsManagement
-import com.googleads.BannerAdsManagement
-import com.googleads.ads_type.InterstitialTypeAds
+import dagger.hilt.android.AndroidEntryPoint
 import fivesol.networklibrary.domain.models.Resource
 import fivesol.networklibrary.domain.models.main_category.Data
-import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
-import javax.inject.Inject
 
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     private val viewModel: MainMcqViewModel by viewModels()
     lateinit var binding: ActivityMainBinding
-
-    @Inject
-    lateinit var googleAdsManagement: AdsManagement
 
     private var networkErrorDialogue: NetworkErrorDialogue? = null
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -44,7 +37,6 @@ class MainActivity : AppCompatActivity() {
         val mLayoutManager: RecyclerView.LayoutManager = GridLayoutManager(this, 2)
         binding.cateList.layoutManager = mLayoutManager
         setObservables()
-        BannerAdsManagement.bannerAds(this,binding.bannerAdView)
     }
 
     private fun setObservables() {
@@ -109,16 +101,7 @@ class MainActivity : AppCompatActivity() {
 
     val onCategoryClick = object : MainCategoryListener {
         override fun onMainCategoryClick(categoryPosition: Int, categoryId: Int) {
-            googleAdsManagement.createInterstitialAd {
-                type = InterstitialTypeAds.DEFAULT_SELECTION
-                onAdDismiss = {
-                    gotToSubCategory(categoryPosition, categoryId)
-                }
-                onAdFailed = {
-                    gotToSubCategory(categoryPosition, categoryId)
-                }
-            }.showCached(this@MainActivity)
-
+            gotToSubCategory(categoryPosition, categoryId)
         }
 
     }

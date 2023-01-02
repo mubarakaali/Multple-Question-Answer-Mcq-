@@ -35,14 +35,14 @@ android {
         viewBinding true
     }
 
-    signingConfigs {
-        release {
-            storeFile file('/Users/mac/Desktop/MubarakFolder/AndroidProjects/NorthSolTech/CapsuleMcq.jks')
-            keyAlias '14clouds'
-            keyPassword '14clouds'
-            storePassword '14clouds'
-        }
-    }
+//    signingConfigs {
+//        release {
+//            storeFile file('/Users/mac/Desktop/MubarakFolder/AndroidProjects/NorthSolTech/CapsuleMcq.jks')
+//            keyAlias '14clouds'
+//            keyPassword '14clouds'
+//            storePassword '14clouds'
+//        }
+//    }
 
     buildTypes {
         debug {
@@ -55,7 +55,7 @@ android {
             minifyEnabled true
             shrinkResources true
             debuggable true
-            signingConfig signingConfigs.release
+//            signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -65,7 +65,7 @@ dependencies {
 
     implementation project(path: ':data')
     implementation project(path: ':domain')
-    api project(':googleads')
+//    api project(':googleads')
 
     implementation 'androidx.appcompat:appcompat:1.4.1'
     implementation 'com.google.android.material:material:1.5.0'

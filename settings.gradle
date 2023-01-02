@@ -10,4 +10,4 @@ rootProject.name = "KapsuleMcqs"
 include ':app'
 include ':data'
 include ':domain'
-include ':googleads'
+//include ':googleads'

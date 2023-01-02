@@ -1,21 +1,16 @@
 package com.fivesol.kapsulemcqs.presentation.ui
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import android.util.Log
+import androidx.appcompat.app.AppCompatActivity
 import com.fivesol.kapsulemcqs.R
 import com.fivesol.kapsulemcqs.presentation.main_category.MainActivity
-import com.googleads.AdsManagement
 import dagger.hilt.android.AndroidEntryPoint
-import javax.inject.Inject
 
 @AndroidEntryPoint
 class SplashActivity : AppCompatActivity() {
-    @Inject
-    lateinit var adsManagement: AdsManagement
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,15 +20,7 @@ class SplashActivity : AppCompatActivity() {
 
     private fun showOpenAds() {
         Handler(Looper.myLooper()!!).postDelayed({
-            adsManagement.createOpenAd {
-                onAdDismiss = {
-                    nextActivity()
-                }
-                onAdLoaded = {
-                    nextActivity()
-                    Log.d("jejeje ", "showOpenAds: onAdLoaded")
-                }
-            }.showCached(this)
+            nextActivity()
         }, 3000)
 
     }
